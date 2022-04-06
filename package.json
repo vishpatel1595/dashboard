@@ -1,0 +1,14 @@
+{
+  "name": "bos",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bootstrap.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

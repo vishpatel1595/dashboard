@@ -1,0 +1,24 @@
+@import url("../../../node_modules/bootstrap/scss/bootstrap-reboot.scss");
+@import url("../../../node_modules/bootstrap/scss/bootstrap-utilities.scss");
+@import url("../../../node_modules/bootstrap/scss/_type.scss");
+@import url("../../../node_modules/bootstrap/scss/_buttons.scss");
+@import url("../../../node_modules/bootstrap/scss/_grid.scss");
+@import url("../../../node_modules/bootstrap/scss/_images.scss");
+@import url("../../../node_modules/bootstrap/scss/_tables.scss");
+@import url("../../../node_modules/bootstrap/scss/_nav.scss");
+@import url("../../../node_modules/bootstrap/scss/_card.scss");
+@import url("../../../node_modules/bootstrap/scss/_forms.scss");
+@import url("../../../node_modules/bootstrap/scss/_dropdown.scss");
+@import url("../../../node_modules/bootstrap/scss/_progress.scss");
+// Bootstrap IE F
+// @if $enable-flex {
+//     @each $breakpoint in map-keys($grid-breakpoints) {
+//         @include media-breakpoint-up($breakpoint) {
+//             @for $size from 1 through $grid-columns {
+//                 .col-#{$breakpoint}-#{$size} {
+//                     -ms-flex: auto;
+//                 }
+//             }
+//         }
+//     }
+// }
